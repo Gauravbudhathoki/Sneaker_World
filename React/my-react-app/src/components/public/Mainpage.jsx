@@ -1,10 +1,21 @@
 import React from 'react';
-import { link } from 'react-router-dom';
-// import '../css/mainpage.css'
+import { Link, useNavigate } from 'react-router-dom';
+import '../css/mainpage.css'
 
 function Mainpage() {
+    const navigate = useNavigate();
+
+    const handleLogin = () => {
+        navigate('/login');
+    };
+
+    const handleRegister = () => {
+        navigate('/signup');
+    };
+
     return (
         <div className="Container">
+            <img src="/Image/back.jpg" alt="background" />
             <div className="Header">
                 <div className="imagecontainer">
                     <img src="/Image/logo.png" alt="logo" />
