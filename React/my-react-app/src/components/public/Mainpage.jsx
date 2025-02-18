@@ -69,17 +69,17 @@ function Mainpage() {
         </ul>
         <div className="bought">
           <Link to="/bought">
-            <img src="./Images/Booked.png" alt="bought" />
+            <img src="/Image/bought.png" alt="bought" />
           </Link>
         </div>
         <div className="cart">
           <Link to="/cart">
-            <img src="./Images/cart.jpg" alt="cart" />
+            <img src="/Image/cart.png" alt="cart" />
           </Link>
         </div>
         <div className="logout">
           <Link to="/login">
-            <img src="./Images/logout.png" alt="logout" />
+            <img src="/Image/logout1.png" alt="logout" />
           </Link>
         </div>
       </header>
@@ -91,7 +91,7 @@ function Mainpage() {
 
       {/* Jerseys Section */}
       <div className="jerseyheading">
-        <h1>Jerseys</h1>
+        <h1>Nike</h1>
       </div>
       <div className="jerseyshow">
         <div className="jersey1" id="1">
@@ -107,7 +107,7 @@ function Mainpage() {
          
         </div>
         <div className="jersey2" id="2">
-          <img src="/Image/nike 2.jpg" alt="nike2" />
+          <img src="/Image/airforce.png" alt="nike2" />
           <h1>Nike Mid 77 </h1>
           <h2>Rs 15000 |-</h2>
           <Link to="/booknow" state={{ productName: "Nike Mid 77", price: 18000 }}>
@@ -119,7 +119,7 @@ function Mainpage() {
           
         </div>
         <div className="jersey3" id="3">
-          <img src="/Image/nike 3 ,brown.jpg" alt="nike3" />
+          <img src="/Image/nikelow.png" alt="nike3" />
           <h1>Nike Brown</h1>
           <h2>Rs 15000 |-</h2>
           <Link to="/booknow" state={{ productName: "Nike Brown", price: 15000 }}>
@@ -134,11 +134,11 @@ function Mainpage() {
 
       {/* Boots Section */}
       <div className="bootheading">
-        <h1>Boots</h1>
+        <h1>Adidas</h1>
       </div>
       <div className="bootshow">
         <div className="boot1" id="1">
-          <img src="/Image/adidas 1.jpeg" alt="adidas 1" />
+          <img src="/Image/adidascampus.jpg" alt="adidas 1" />
           <h1>Adidas Campus</h1>
           <h2>Rs 12500 |-</h2>
           <Link to="/booknow" state={{ productName: "Adidas Campus", price: 12500}}>
@@ -150,7 +150,7 @@ function Mainpage() {
           
         </div>
         <div className="boot2" id="2">
-          <img src="/Image/adidas2.jpeg" alt="adidas2" />
+          <img src="/Image/samba.jpg" alt="adidas2" />
           <h1>Adidas Samba</h1>
           <h2>Rs 17000 |-</h2>
           <Link to="/booknow" state={{ productName: "Adidas Samba", price: 17000 }}>
@@ -182,7 +182,7 @@ function Mainpage() {
       <div className="sockshinguard">
         <div className="sockshin1" id="1">
           <img src="/Image/puma1.jpg" alt="puma1" />
-          <h1>Black Fiber Edition</h1>
+          <h1>Puma Fiber Edition</h1>
           <h2>Rs 18000 |-</h2>
           <Link to="/booknow" state={{ productName: "Puma Adition 1", price: 18000 }}>
             <button className="bn3">Buy Now</button>
@@ -193,25 +193,25 @@ function Mainpage() {
           
         </div>
         <div className="sockshin2" id="2">
-          <img src="./Images/sockshinguard.jpg" alt="sockshin2" />
-          <h1>Combo Dashain Offer</h1>
-          <h2>Rs 2000 |-</h2>
-          <Link to="/booknow" state={{ productName: "Combo Dashain Offer", price: 2000 }}>
+          <img src="/Image/puma2.jpg" alt="Puma " />
+          <h1>Puma BMW</h1>
+          <h2>Rs 20000 |-</h2>
+          <Link to="/booknow" state={{ productName: "Puma BMW", price: 20000}}>
             <button className="bn3">Buy Now</button>
           </Link>
-          <Link to="/addtocart" state={{ productName: "Combo Dashain Offer", price: 2000 }}>
+          <Link to="/addtocart" state={{ productName: "Puma BMW", price: 20000}}>
             <button className="bn3">Add to Cart</button>
           </Link>
          
         </div>
         <div className="sockshin3" id="3">
-          <img src="./Images/shinguard.jpg" alt="sockshin3" />
-          <h1>Sponge Premium Shin Guard</h1>
-          <h2>Rs 1075 |-</h2>
-          <Link to="/booknow" state={{ productName: "Sponge Premium Shin Guard", price: 1075 }}>
+          <img src="/Image/puma3.png" alt="Puma" />
+          <h1>puma</h1>
+          <h2>Rs 18750 |-</h2>
+          <Link to="/booknow" state={{ productName: "Sponge Premium Shin Guard", price: 18750 }}>
             <button className="bn3">Buy Now</button>
           </Link>
-          <Link to="/addtocart" state={{ productName: "Sponge Premium Shin Guard", price: 1075 }}>
+          <Link to="/addtocart" state={{ productName: "Sponge Premium Shin Guard", price: 18750 }}>
             <button className="bn3">Add to Cart</button>
           </Link>
          
@@ -221,12 +221,12 @@ function Mainpage() {
       {/* About Us Section */}
       <div className="aboutus" id="aboutus">
         <div className="about1" id="1">
-          <img src="./Images/aboutus.jpg" alt="aboutus" />
+          <img src="/Image/about us.jpg" alt="aboutus" />
         </div>
         <div className="about2" id="2">
-          <h1>Welcome to Footmandu</h1>
-          <p>Where passion meets the pitch!</p>
-          <p>Footmandu is Nepal&apos;s premier destination for football enthusiasts</p>
+          <h1>Welcome to Sneaker World</h1>
+          <p>Designed to Move ,Built to Impress!</p>
+          <p>Sneaker World is Nepal&apos;s premier destination for Sneaker enthusiasts</p>
         </div>
       </div>
 
@@ -235,23 +235,23 @@ function Mainpage() {
         <div className="footer" id="footer">
           <div className="mainfooter">
             <div className="row">
-              <img src="./Images/logo3.png" alt="logo2" />
+              {/* <img src="./Images/logo3.png" alt="logo2" /> */}
               <div className="footer1">
                 <h1>Our specialities</h1>
-                <p>We specialize in providing high-quality football kits</p>
+                <p>We specialize in providing high-quality Sneaker </p>
                 <p>We ensure secure and hassle-free online shopping</p>
                 <p>Our store offers exclusive discounts</p>
               </div>
               <div className="footer2">
                 <h1>Contact</h1>
-                <p>Number: 01 9875604 || 9876124532</p>
-                <p>Email: footmandu2081@gmail.com</p>
+                <p>Number: 01 9875604 || 9867558890p</p>
+                <p>Email: sneakerworld@2081@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
         <div className="copyright">
-          <p>Footmandu @ 2025 - All Rights Reserved</p>
+          <p>Sneakerworld@ 2025 - All Rights Reserved</p>
         </div>
       </footer>
     </>

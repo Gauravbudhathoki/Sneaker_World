@@ -79,7 +79,7 @@ function Booknow() {
       <h1>Buy Now</h1>
       <div className="qr-code-section">
         <div className="qr-placeholder">
-          <img src="/Images/qr.png" alt="QR Code" />
+          <img src="/Image/qrcode.png" alt="QR Code" />
         </div>
       </div>
       <div className="Form">

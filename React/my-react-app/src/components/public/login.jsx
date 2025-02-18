@@ -55,17 +55,15 @@ function Login() {
 
   return (
     <div className="Container">
+      <img src='/Image/back.jpg' alt='background'/>
       <div className="Header">
         <div className="imagecontainer">
-          <img src="./Images/logo3.png" alt="logo" />
+          <img src="/Image/logo.png" alt="logo" />
         </div>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><button className="button" onClick={() => (window.location.href = '/register')}>SIGN UP</button></li>
         </ul>
-        <div className="user">
-          <img src="./Images/icons8-user-48.png" alt="icon" />
-        </div>
       </div>
       <div className="Form">
         <form onSubmit={handleSubmit(onSubmit)}>

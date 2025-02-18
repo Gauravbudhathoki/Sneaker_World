@@ -173,10 +173,10 @@ function Cart() {
     <div className="container">
      
       <div className="back">
-        <Link to="/mainpage"><img src="/Images/arrow.jpg" alt="back" /></Link>
+        <Link to="/mainpage"><img src="/Image/backicon.png" alt="back" /></Link>
       </div>
       <div className="logout">
-        <Link to="/login"><img src="/Images/logout.png" alt="logout" /></Link>
+        <Link to="/login"><img src="/Image/logout1.png" alt="logout" /></Link>
       </div>
 
       <form autoComplete="off" onSubmit={handleCheckout}>
